@@ -1,0 +1,60 @@
+main {
+  background-image: url("kepek/black.png");
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-areas:
+    "h h"
+    "n n"
+    "ar as"
+    "f f";
+}
+
+header {
+  grid-area: h;
+}
+
+header img {
+  width: 100%;
+}
+
+nav {
+  grid-area: n;
+  background-color: black;
+}
+
+nav a {
+  color: white;
+   border: 1px solid;
+text-decoration: none;
+}
+
+.fo{
+    background-color: orange;
+}
+
+article {
+  grid-area: ar;
+  background-color: gainsboro;
+}
+
+aside {
+  grid-area: as;
+  background-color: gainsboro;
+}
+
+footer {
+  grid-area: f;
+  background-color: orange;
+}
+
+aside img {
+  width: 100%;
+}
+
+table,
+tr,
+td {
+  background-color: white;
+  border: 1px solid;
+}
+
