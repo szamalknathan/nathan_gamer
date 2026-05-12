@@ -77,3 +77,6 @@ aside img {
   width: 100%;
 }
 
+table, thead, tbody, tr, td{
+  background-color: white;
+}
