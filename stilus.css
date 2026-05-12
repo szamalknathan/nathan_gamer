@@ -38,9 +38,10 @@ nav a {
   color: white;
   border: 1px solid;
   text-decoration: none;
-  }
+  font-weight: bold;
+}
 
-li{
+li {
   float: left;
 }
 
@@ -51,6 +52,14 @@ li{
 article {
   grid-area: ar;
   background-color: gainsboro;
+}
+
+article p {
+  font-size: 10px;
+}
+
+article h1 {
+  font-size: 15px;
 }
 
 aside {
